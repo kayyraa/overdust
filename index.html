@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="scripts/style/style.css">
+
+        <script type="module" src="scripts/global.d.js"></script>
+        <script type="module" src="scripts/account.js"></script>
+        <script type="module" src="scripts/catalog.js"></script>
+
+        <title>overdust</title>
+    </head>
+    <body>
+        <div class="Banner"></div>
+        <div class="Topbar">
+            <header>overdust</header>
+            <button class="Account">Account</button>
+        </div>
+        <div class="Catalog">
+            <header>Catalog</header>
+            <div class="Discover"></div>
+        </div>
+        <div style="opacity: 0; display: none;" class="Player">
+            <div class="Playback">
+                <span class="Time">~~:~~:~~</span>
+                <span class="Title">~</span>
+                <div class="Bar"><div class="Value"></div><div class="Cursor"></div></div>
+            </div>
+            <img class="ReturnButton" src="images/Return.svg">
+            <video></video>
+        </div>
+    </body>
+</html>
